@@ -1,0 +1,13 @@
+name: CommandSpy
+version: "1.0.0"
+main: CommandSpy.commandspy
+api : ["1.0.9"]
+author: hungerfan55
+
+commands :
+  cmdspy:
+    description: See all commands that players type
+    permission: chat.spycmd
+permissions:
+  CmdSpy.*:
+    description: Access to all permissions
